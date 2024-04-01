@@ -15,18 +15,20 @@ the conversation history and leverage a location-
 based tool to provide a more specific answer in the
 second query. This enriched context, facilitated by
 reAct prompting, empowers the LLM to generate
-informative and relevant responses that directly ad-
-dress the user’s specific needs within the disaster
-scenario.
-The system also handles non-disaster-related in-
-quiries by providing predefined responses that may
-direct users to appropriate resources. By contin-
-uously storing user interaction data, the system
-undergoes a learning process. This ongoing analy-
-sis improves the LLM’s ability to understand user
-intent, select the most appropriate tools, and ulti-
-mately deliver effective support during disasters.
-This cyclical process ensures the system remains
-adaptable and responsive, providing users with the
-most accurate and up-to-date information during
-critical situations.
+informative and relevant responses that directly address the user’s specific needs within the disaster
+scenario. The system also handles non-disaster-related inquiries by providing predefined responses that may
+direct users to appropriate resources.
+
+
+## Usage
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sujitnoronha/Disaster_Chat_Agent.git
+    ```
+
+Built using Lanchain, gpt 3.5 turbo, 
+
+
+
+Make sure to replace `YOUR_OPENAI_API_KEY` with your actual OpenAI API key in the `backend_api.py` file before running the backend API. Adjust any other details or instructions as needed for your project.
