@@ -26,9 +26,22 @@ direct users to appropriate resources.
    ```bash
    git clone https://github.com/sujitnoronha/Disaster_Chat_Agent.git
     ```
+2. Create virutal Environment
 
-Built using Lanchain, gpt 3.5 turbo, 
+3. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+    ```
+4. Start backend server 
+    ```bash
+   python backend_api.py
+    ```
+5. Launch Gradio Frontend
+    ```bash
+   python chatdemo.py
+    ```
 
+Built using Langchain, gpt 3.5 turbo, FAISS, Chroma-db, Gradio.
 
 
 Make sure to replace `YOUR_OPENAI_API_KEY` with your actual OpenAI API key in the `backend_api.py` file before running the backend API. Adjust any other details or instructions as needed for your project.
